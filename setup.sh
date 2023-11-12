@@ -9,7 +9,7 @@ if [[ "$OSTYPE" == "cygwin" ]] || [[ "$OSTYPE" == "msys" ]] || [[ "$OSTYPE" == "
 else
     if ! command -v python3 &> /dev/null
     then
-        echo "python3 could not be found"
+        echo "python3 could not be found 222"
         echo "Installing python3 using pyenv..."
         if ! command -v pyenv &> /dev/null
         then

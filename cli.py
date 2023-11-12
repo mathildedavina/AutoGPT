@@ -11,7 +11,7 @@ except ImportError:
     import os
 
     os.system("pip3 install click")
-    os.system("pip3 install PyGithub")
+    os.system("pip3 install PyGithub2")
     import click
 
 
